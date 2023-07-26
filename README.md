@@ -1,8 +1,8 @@
-# A PHP Package to access https://porichoy.gov.bd services via their official api. 
+# Access porichoy.gov.bd from your PHP/Laravel application.
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/happihub/porichoy.svg?style=flat-square)](https://packagist.org/packages/happihub/porichoy)
-[![Total Downloads](https://img.shields.io/packagist/dt/happihub/porichoy.svg?style=flat-square)](https://packagist.org/packages/happihub/porichoy)
-![GitHub Actions](https://github.com/happihub/porichoy/actions/workflows/main.yml/badge.svg)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/nazmulpcc/porichoy.svg?style=flat-square)](https://packagist.org/packages/happihub/porichoy)
+[![Total Downloads](https://img.shields.io/packagist/dt/nazmulpcc/porichoy.svg?style=flat-square)](https://packagist.org/packages/happihub/porichoy)
+![GitHub Actions](https://github.com/nazmulpcc/porichoy/actions/workflows/main.yml/badge.svg)
 
 ## Installation
 
