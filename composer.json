@@ -1,0 +1,52 @@
+{
+    "name": "happihub/porichoy",
+    "description": "Access porichoy.gov.bd from your PHP/Laravel application.",
+    "keywords": [
+        "happihub",
+        "porichoy"
+    ],
+    "homepage": "https://github.com/nazmulpcc/porichoy",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Nazmul Alam",
+            "email": "nazmul@happihub.com",
+            "role": "Maintainer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^8.0|^9.0|^10"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Porichoy\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Porichoy\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit ./tests",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Porichoy\\PorichoyServiceProvider"
+            ],
+            "aliases": {
+                "Porichoy": "Porichoy\\Facade\\Porichoy"
+            }
+        }
+    }
+}
