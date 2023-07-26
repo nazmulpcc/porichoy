@@ -45,7 +45,7 @@
                 "Porichoy\\PorichoyServiceProvider"
             ],
             "aliases": {
-                "Porichoy": "Porichoy\\Facade\\Porichoy"
+                "Porichoy": "Porichoy\\Facades\\Porichoy"
             }
         }
     }
